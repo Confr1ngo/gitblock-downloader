@@ -1,0 +1,4 @@
+*.sb3
+__pycache__/
+.DS_Store
+settings.py
