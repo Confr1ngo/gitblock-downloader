@@ -1,4 +1,9 @@
-*.sb3
+assets/
+results/
 __pycache__/
+
+*.sb3
 .DS_Store
 settings.py
+project.json
+assets_list.txt

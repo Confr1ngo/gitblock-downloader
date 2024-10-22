@@ -6,7 +6,7 @@ def read_file(filename:str)->bytes:
 		return f.read()
 
 def save_to_file(filename:str,data:str)->None:
-	with open(filename,'w') as f:
+	with open(filename,'w',encoding='utf-8') as f:
 		f.write(data)
 
 def save_to_fileb(filename:str,data:bytes)->None:
